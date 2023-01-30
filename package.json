@@ -1,0 +1,23 @@
+{
+  "name": "winston-priorityscale-transport",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src/ --copy-files --out-dir lib",
+    "deploy": "npm run build && npm version patch && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/priorityscale/winston-priorityscale-transport.git"
+  },
+  "author": "PriorityScale, LLC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/priorityscale/winston-priorityscale-transport/issues"
+  },
+  "homepage": "https://github.com/priorityscale/winston-priorityscale-transport#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  }
+}
